@@ -1,0 +1,11 @@
+C:\Users\amamaniy\Documents\Visual Studio 2010\Projects\ConsoleApplication1\ReportsApplication1\bin\Debug\ReportsApplication1.exe.config
+C:\Users\amamaniy\Documents\Visual Studio 2010\Projects\ConsoleApplication1\ReportsApplication1\bin\Debug\ReportsApplication1.exe
+C:\Users\amamaniy\Documents\Visual Studio 2010\Projects\ConsoleApplication1\ReportsApplication1\bin\Debug\ReportsApplication1.pdb
+C:\Users\amamaniy\Documents\Visual Studio 2010\Projects\ConsoleApplication1\ReportsApplication1\obj\Debug\ReportsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\amamaniy\Documents\Visual Studio 2010\Projects\ConsoleApplication1\ReportsApplication1\obj\Debug\ReportsApplication1.Form1.resources
+C:\Users\amamaniy\Documents\Visual Studio 2010\Projects\ConsoleApplication1\ReportsApplication1\obj\Debug\ReportsApplication1.Properties.Resources.resources
+C:\Users\amamaniy\Documents\Visual Studio 2010\Projects\ConsoleApplication1\ReportsApplication1\obj\Debug\ReportsApplication1.csproj.GenerateResource.Cache
+C:\Users\amamaniy\Documents\Visual Studio 2010\Projects\ConsoleApplication1\ReportsApplication1\obj\Debug\RdlCompile.cache
+C:\Users\amamaniy\Documents\Visual Studio 2010\Projects\ConsoleApplication1\ReportsApplication1\obj\Debug\RdlCompile.compiled
+C:\Users\amamaniy\Documents\Visual Studio 2010\Projects\ConsoleApplication1\ReportsApplication1\obj\Debug\ReportsApplication1.exe
+C:\Users\amamaniy\Documents\Visual Studio 2010\Projects\ConsoleApplication1\ReportsApplication1\obj\Debug\ReportsApplication1.pdb

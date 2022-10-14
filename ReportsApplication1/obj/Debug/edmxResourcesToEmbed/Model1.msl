@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="pruebaModelStoreContainer" CdmEntityContainer="pruebaEntities">
+    <EntitySetMapping Name="Pais">
+      <EntityTypeMapping TypeName="pruebaModel.Pais">
+        <MappingFragment StoreEntitySet="Pais">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Pais1" ColumnName="Pais" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Persona">
+      <EntityTypeMapping TypeName="pruebaModel.Persona">
+        <MappingFragment StoreEntitySet="Persona">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Edad" ColumnName="Edad" />
+          <ScalarProperty Name="IdPais" ColumnName="IdPais" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

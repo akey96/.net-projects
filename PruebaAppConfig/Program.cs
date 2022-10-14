@@ -10,47 +10,71 @@ namespace PruebaAppConfig
 {
     class Program
     {
-        static void Main(string[] args)
+
+        static void Main(String[] args)
         {
-            var mensaje = ConfigurationManager.AppSettings["mensaje"];
 
-            Console.WriteLine(mensaje);
+            var circinferencia = new Circunferencia();
+            var cuadrado = new Rectagulo();
+            var cir2 = new Circunferencia();
 
-            //var builder = new SqlConnectionStringBuilder();
-            //builder.DataSource = @"NTVDSD4CTQ\SQLEXPRESS";
-            //builder.InitialCatalog = "prueba";
-            //builder.IntegratedSecurity = true;
-            //builder.UserID = "sa";
-            //builder.Password = "Pepito1234";
-            //var connectionString = builder.ToString();
-
-            var connectionString = ConfigurationManager.ConnectionStrings["defaultConnection"].ConnectionString;
-            //Console.WriteLine(connectionString);
-
-            var idPais = 1;
-
-//            var query = @"select * 
-//                        from Persona
-//                        Where IdPais = @IdPais";
-
-            using ( SqlConnection sql = new SqlConnection(connectionString))
+            // antes
+            var ci3 = cir2 as Circunferencia;
+            if (cir2 != null)
             {
-                //using ( SqlCommand cmd = new SqlCommand(query, sql) )
-                using (SqlCommand cmd = new SqlCommand("sp_Buscar_Persona_Por_Pais ", sql))
-                {
-                    cmd.CommandType = CommandType.StoredProcedure;
-                    cmd.Parameters.Add(new SqlParameter("@IdPais", idPais));
-                    DataTable dt = new DataTable();
-                    SqlDataAdapter da = new SqlDataAdapter(cmd);
-                    sql.Open();
-                    da.Fill(dt);
-                    sql.Close();
-                }
-                
-                
+                cir2.Altura = 4;
             }
+            
+            // ahora
+            // Si c2 es una isntancia de Circinferencia entonces guardala en la variable cirtemporaal
+            //if(c2 is Circunferencia cirtemporal)
+            //{
+            //    cirtemporal.Radio = 4;
+            //}
 
-            Console.Read();
+
+            // con swich
+
+            //switch (cuadrado)
+            //{ 
+            //    case Triangulo t:
+            //        break;
+            //        Console.WriteLine("Es un trianguloa");
+            //    case Rectagulo r when r.Anchura == r.Altura:
+            //        Console.WriteLine("Es un rectangulo");
+            //        break;
+            //    case Circunferencia c:
+            //        Console.WriteLine("Es una circunferencia");    
+            //        break;
+            //    default:
+            //        break;
+            //}
         }
+
+       
     }
+
+    class Base
+    {
+        public float Anchura { get; set; }
+        public float Altura{ get; set; }
+
+    }
+
+    class Rectagulo : Base
+    { 
+    
+    }
+
+    class Triangulo: Base
+    {
+
+    }
+
+    class Circunferencia : Base
+    {
+
+    }
+
+
 }

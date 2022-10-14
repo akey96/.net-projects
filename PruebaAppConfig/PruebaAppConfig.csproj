@@ -44,6 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="TimeoutADO.cs" />
+    <Compile Include="DataSetADO.cs" />
+    <Compile Include="IntroADO.cs" />
+    <Compile Include="TransaccionesADO.cs" />
+    <Compile Include="DataTablesADO.cs" />
+    <Compile Include="InsertADO.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
